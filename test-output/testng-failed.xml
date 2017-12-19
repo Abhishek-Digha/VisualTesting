@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VisualTest]">
+  <parameter name="environment" value="staging"/>
+  <parameter name="browserName" value="firefox"/>
+  <test name="USGBCVisualTest(failed)">
+    <parameter name="environment" value="staging"/>
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkCredentialsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="USGBCHeaderLinkCredentials"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkCredentialsTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkEducationTest">
+        <methods>
+          <include name="USGBCHeaderLinkEducation"/>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkEducationTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkStoreTest">
+        <methods>
+          <include name="setup"/>
+          <include name="USGBCHeaderLinkStore"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkStoreTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkJoinTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+          <include name="USGBCHeaderLinkJoin"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkJoinTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkResourcesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="USGBCHeaderLinkResources"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkResourcesTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCLandingPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCLandingPageTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkLeedTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="USGBCHeaderLinkLeed"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkLeedTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkDirectoryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="USGBCHeaderLinkDirectory"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkDirectoryTest -->
+      <class name="com.usgbc.testcases.LandingPage.USGBCHeaderLinkArticlesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="USGBCHeaderLinkArticles"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCHeaderLinkArticlesTest -->
+    </classes>
+  </test> <!-- USGBCVisualTest(failed) -->
+</suite> <!-- Failed suite [VisualTest] -->

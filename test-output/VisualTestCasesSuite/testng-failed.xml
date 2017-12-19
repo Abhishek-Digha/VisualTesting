@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VisualTestCasesSuite]">
+  <parameter name="environment" value="staging"/>
+  <parameter name="browserName" value="firefox"/>
+  <test name="USGBCVisualTest(failed)">
+    <parameter name="environment" value="staging"/>
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.usgbc.testcases.LandingPage.USGBCLandingPageTest">
+        <methods>
+          <include name="USGBCLandingPageHeaderLink"/>
+          <include name="setup"/>
+          <include name="setupTestMethod"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.usgbc.testcases.LandingPage.USGBCLandingPageTest -->
+    </classes>
+  </test> <!-- USGBCVisualTest(failed) -->
+</suite> <!-- Failed suite [VisualTestCasesSuite] -->
